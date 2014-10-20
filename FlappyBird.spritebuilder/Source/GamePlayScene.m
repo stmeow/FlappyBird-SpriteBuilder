@@ -9,7 +9,7 @@
     // your code here
     character = (Character *)[CCBReader load:@"Character"];
     [physicsNode addChild:character];
-    [self addObstacle];
+    //[self addObstacle];
     timeSinceObstacle = 0.0f;
 }
 
@@ -20,7 +20,7 @@
     // delta is the time that has elapsed since the last time it was run. This is usually 1/60, but can be bigger if the game slows down - 60 times per second.
     timeSinceObstacle += delta;
     if (timeSinceObstacle > 2.0f) {
-        [self addObstacle];
+        //[self addObstacle];
         timeSinceObstacle = 0.0f;
     }
 }
