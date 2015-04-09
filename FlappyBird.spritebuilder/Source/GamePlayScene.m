@@ -27,8 +27,8 @@
 
 // put new methods here
 
--(void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
-    //gets called every time the user touches the screen
+-(void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event
+{
     [character flap];
 }
 
